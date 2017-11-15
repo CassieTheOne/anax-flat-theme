@@ -1,0 +1,46 @@
+@import "grid-helpers.less";
+
+body {
+  .container();
+   max-width: 900px;
+//  .showGrid(945px);
+}
+
+.row {
+  .row();
+}
+
+.site-header {
+    .column(12);
+}
+
+.flash-wrap {
+    .column(12);
+    .push(0.8);
+}
+
+.column-a {
+  .column(9);
+}
+
+.column-b {
+  .column(3);
+}
+
+.content {
+  .column(9);
+}
+
+.footer-column {
+   .column(4);
+   text-align: center;
+}
+
+.site-footer {
+  .column(12);
+  text-align: center;
+}
+
+.vgrid, .route-grid {
+  background: url(../img/grid940x12x60x20-nomargin.png) repeat-y fixed center center;
+}
