@@ -3,9 +3,15 @@
 */
 @import url(base.less);
 
-@nav-color: #ca5858;
-@main-color: #e6c7a4;
-@footer-color: #7f8946;
+@top-nav-color: #5c8001; // 80ff08
+@nav-color: #59b205;
+@main-color: #f3de2c;//F3DE2C  f6fff8
+@footer-color: #fb6107;// 5C8001 214bff
+@bot-footer-color: #fb6107;//FB6107 2f41b2
+
+.site-header {
+  background-color: @top-nav-color;
+}
 
 .navbar2 {
   background-color: @nav-color;
@@ -18,7 +24,9 @@ body {
 .outer-wrap-footer {
   background-color: @footer-color;
 }
-
+.block.site-footer {
+  background-color: @bot-footer-color;
+}
 .pallet {
   border: 1px solid black;
 }

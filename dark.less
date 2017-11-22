@@ -3,9 +3,14 @@
 */
 @import url(base.less);
 
-@nav-color: #ca5858;
-@main-color: #e6c7a4;
-@footer-color: #7f8946;
+@nav-color: #172753;
+@main-color: #2e2e2e;
+@footer-color: #172753;
+@bot-footer-color: #16285b;
+
+.site-header {
+  background-color: @nav-color;
+}
 
 .navbar2 {
   background-color: @nav-color;
@@ -19,6 +24,21 @@ body {
   background-color: @footer-color;
 }
 
+.block.site-footer {
+  background-color: @bot-footer-color;
+}
+
+h1, h4 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+li {
+  color: white;
+}
 .pallet {
   border: 1px solid black;
 }
